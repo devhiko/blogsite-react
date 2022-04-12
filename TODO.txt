@@ -1,0 +1,2 @@
+* ögrendiklerini burada uygula (React)
+* sıfırdan bir blog sitesi yap (react ile)

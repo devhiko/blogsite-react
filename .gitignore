@@ -1,0 +1,8 @@
+# ignore images
+**/*.png
+
+# ignore node_modules
+node_modules
+
+# build files
+/build
