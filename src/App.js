@@ -1,14 +1,11 @@
-const Test = () => {
-  return (
-    <div>Test Div</div>
-  )
-}
+import Blogs from './components/Blogs'
+import Header from './components/Header'
 
 function App() {
   return (
     <div className="App">
-      <h1>My App</h1>
-      <Test />
+      <Header />
+      <Blogs />
     </div>
   );
 }
