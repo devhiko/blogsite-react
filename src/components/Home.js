@@ -1,6 +1,7 @@
 import useFetch from "../useFetch";
 
 const Home = () => {
+  // FIXME: ERROROOOARO HERE
   const { data: blogs } = useFetch('http://localhost:8000/blogs');
   return (
     <div className="blogs">
@@ -16,7 +17,6 @@ const Home = () => {
           </div>
         )
       })}
-
     </div>
   )
 }

@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 
 const useFetch = (url) => {
   const [data, SetBlogs] = useState(null);
-
   useEffect(() => {
     fetch(url)
       .then(res => res.json)
@@ -11,9 +10,7 @@ const useFetch = (url) => {
       })
       .catch(err => console.log(err))
   }, [url])
-
   return data;
-
 }
 
 export default useFetch;
