@@ -1,15 +1,14 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 const useFetch = (url) => {
-  const [data, SetBlogs] = useState(null);
+  const [data, setBlogs] = useState(null);
   useEffect(() => {
     fetch(url)
-      .then(res => res.json)
-      .then(data => {
-        SetBlogs(data);
-      })
-      .catch(err => console.log(err))
-  }, [url])
+      .then(res => res.json())
+      .then(data => { setBlogs(data) })
+      .catch(err => console.log(err.message));
+  }, [url]);
+
   return data;
 }
 

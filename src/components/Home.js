@@ -12,7 +12,7 @@ const Home = () => {
             <p>{blog.content}</p>
             <small><em><p>Author: {blog.author}</p></em></small>
             <small><p className="likes">Likes: 10</p></small>
-            <button className="like">Like</button>
+            <button onClick={() => test} className="like">Like</button>
             <a href="/" className="read">Read More</a>
           </div>
         )
