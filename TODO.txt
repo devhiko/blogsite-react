@@ -1,6 +1,5 @@
 * ögrendiklerini burada uygula (React)
 * sıfırdan bir blog sitesi yap (react ile)
 
-* SEPERATE CSS MODULES EACH COMPONENT
 * ADD REACT REDUX
 * SHARE STATE WITH OTHER COMPONENTS

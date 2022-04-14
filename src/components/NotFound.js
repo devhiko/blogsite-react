@@ -1,3 +1,5 @@
+import '../styles/404.style.css'
+
 const NotFound = () => {
   return (
     <div className="notfound">

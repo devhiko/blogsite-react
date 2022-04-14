@@ -1,5 +1,6 @@
 import useFetch from "../useFetch";
 import BlogList from "./BlogList";
+import '../styles/Blogs.style.css'
 
 const Home = () => {
   const { data: blogs } = useFetch('http://localhost:8000/blogs');

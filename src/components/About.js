@@ -1,3 +1,5 @@
+import '../styles/About.style.css'
+
 const About = () => {
   return (
     <div className="about">

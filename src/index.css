@@ -3,135 +3,47 @@
 /* GLOBALS END */
 
 /* APP STYLES  */
-@import url('./styles/App.style.css');
+/* @import url('./styles/App.style.css'); */
 /* APP STYLES END */
 
 /* ABOUT  */
-@import url('./styles/About.style.css');
+/* @import url('./styles/About.style.css'); */
 /* ABOUT END */
 
 /* CONTACT  */
-@import url('./styles/Contact.style.css');
+/* @import url('./styles/Contact.style.css'); */
 /* CONTACT END */
 
 /* LOGIN  */
-@import url('./styles/Login.style.css');
+/* @import url('./styles/Login.style.css'); */
 /* LOGIN END */
 
 /* HEADER */
-@import url('./styles/Header.style.css');
+/* @import url('./styles/Header.style.css'); */
 /* HEADER END */
 
 /* NAVBAR */
-@import url('./styles/Navbar.style.css');
+/* @import url('./styles/Navbar.style.css'); */
 /* NAVBAR END */
 
 
 /* BLOGS */
-.blogs {
-  width: 100%;
-  height: 1410px;
-  padding: 5px;
-  background: rgba(253, 250, 250, 0.103);
-}
-
-.blogs h3 {
-  margin: 10px 5px;
-  text-align: left;
-}
-
+/* @import url('./styles/Blogs.style.css'); */
 /* BLOGS END */
 
 /* BLOG */
-.blog {
-  height: 190px;
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid lightgray;
-  overflow: hidden;
-}
-
-.blog:hover {
-  transition: box-shadow .2s ease-out;
-  box-shadow: 5px 5px 15px lightgray;
-}
-
-.blog:hover a {
-  color: lightseagreen;
-}
-
-.blog h4 {
-  margin: 0;
-}
-
-.blog p {
-  margin: 5px auto;
-}
-
-.blog small p {
-  display: inline-block;
-  margin: 10px 0px;
-}
-
-.blog .likes {
-  margin: 0px 5px;
-}
-
+/* @import url('./styles/Blog.style.css'); */
 /* BLOG END */
 
 /* BLOG DETAILS */
-.blog-details {
-  margin: 10px;
-  height: 200px;
-  padding: 10px;
-  border: 1px solid lightgray;
-}
-
-.blog-details:hover {
-  box-shadow: 5px 5px 15px lightgray;
-}
-
-.blog-details button {
-  margin: 0px 5px;
-  font-size: 16px;
-  border: 1px solid black;
-  padding: 5px 20px;
-  background: none;
-  float: right;
-}
-
-.blog-details button:hover {
-  color: black;
-  background: lightseagreen;
-}
-
-.blog-details h3 {
-  margin: 5px 0px;
-}
-
+/* @import url('./styles/BlogDetails.style.css'); */
 /* BLOG DETAILS END */
 
 
 /* FOOTER */
-.footer {
-  background: lightseagreen;
-  margin: 0;
-  box-shadow: 5px 5px 15px gray;
-}
-
-.footer p {
-  margin: 0;
-  padding: 10px;
-  text-align: center;
-  color: whitesmoke;
-  text-shadow: 3px 0px 5px lightgray;
-}
-
+/* @import url('./styles/Footer.style.css'); */
 /* FOOTER END */
 
 /* 404 PAGE */
-.notfound {
-  text-align: center;
-}
-
+/* @import url('./styles/404.style.css'); */
 /* 404 PAGE END */

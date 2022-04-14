@@ -1,6 +1,8 @@
 // import { useState } from "react";
 import { useParams } from "react-router";
 import useFetch from "../useFetch";
+import '../styles/BlogDetails.style.css'
+
 const BlogDetails = () => {
   const { id } = useParams();
   const { data: blog } = useFetch(`http://localhost:8000/blogs/${id}`)

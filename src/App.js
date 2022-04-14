@@ -7,6 +7,7 @@ import Login from './components/Login'
 import BlogDetails from './components/BlogDetails';
 import NotFound from './components/NotFound'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.style.css'
 
 function App() {
   return (

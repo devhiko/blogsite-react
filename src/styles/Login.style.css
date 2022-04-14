@@ -2,6 +2,10 @@
   padding: 10px;
 }
 
+.login a {
+  margin: 0px 5px;
+}
+
 .login form {
   padding: 10px;
 }
