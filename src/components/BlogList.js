@@ -9,7 +9,7 @@ const BlogList = ({ blogs }) => {
           <Link to={`/blogs/${blog.id}`}><b>{blog.title}</b></Link>
           <p>{blog.content}</p>
           <small><em><p>Author: {blog.author}</p></em></small>
-          {/* <small><p className="likes">Likes: 10</p></small> */}
+          {/* <small><p className="likes">Likes: {likes}</p></small> */}
         </div>)
       )
       }

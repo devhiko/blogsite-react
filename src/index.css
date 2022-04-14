@@ -35,6 +35,48 @@ ul {
 
 /* APP STYLES END */
 
+/* ABOUT  */
+.about {
+  padding: 10px;
+}
+
+/* ABOUT END */
+
+/* CONTACT  */
+.contact {
+  padding: 10px;
+}
+
+/* CONTACT END */
+
+/* LOGIN  */
+.login {
+  padding: 10px;
+}
+
+.login form {
+  padding: 10px;
+}
+
+.login input {
+  font-size: 16px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.login input[type='submit'] {
+  padding: 10px 20px;
+  border: 1px solid lightgray;
+  background: none;
+}
+
+.login input[type='submit']:hover {
+  color: whitesmoke;
+  background: lightseagreen;
+}
+
+/* LOGIN END */
+
 
 /* HEADER */
 .header {
