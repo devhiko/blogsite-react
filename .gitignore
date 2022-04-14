@@ -6,3 +6,9 @@ node_modules
 
 # build files
 /build
+
+# text files
+**/*.txt
+
+# priv data
+data
