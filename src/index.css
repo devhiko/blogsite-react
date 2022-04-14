@@ -1,3 +1,5 @@
+/* GLOBALS */
+
 * {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
@@ -10,6 +12,7 @@ body {
 a {
   color: black;
   text-decoration: none;
+  text-shadow: 3px 0px 5px lightgray;
 }
 
 a:hover {
@@ -20,6 +23,8 @@ ul {
   list-style: none;
 }
 
+/* GLOBALS END */
+
 /* APP STYLES  */
 .App {
   width: 90%;
@@ -28,6 +33,10 @@ ul {
   box-shadow: 5px 5px 15px gray;
 }
 
+/* APP STYLES END */
+
+
+/* HEADER */
 .header {
   margin: 0;
   background: rgba(32, 178, 171, 0.747);
@@ -42,6 +51,9 @@ ul {
   float: left;
 }
 
+/* HEADER END */
+
+/* NAVBAR */
 .navbar ul {
   margin: 5px 5px;
   padding: 0;
@@ -57,6 +69,10 @@ ul {
   color: whitesmoke;
 }
 
+/* NAVBAR END */
+
+
+/* BLOGS */
 .blogs {
   width: 100%;
   height: 1410px;
@@ -69,18 +85,24 @@ ul {
   text-align: left;
 }
 
+/* BLOGS END */
+
+/* BLOG */
 .blog {
   height: 190px;
   margin: 10px;
   padding: 10px;
-  border: 1px solid whitesmoke;
-  box-shadow: 5px 5px 15px lightgray;
+  border: 1px solid lightgray;
   overflow: hidden;
 }
 
 .blog:hover {
-  border: 1px solid lightseagreen;
-  transition: color .3s ease-in;
+  transition: box-shadow .2s ease-out;
+  box-shadow: 5px 5px 15px lightgray;
+}
+
+.blog:hover a {
+  color: lightseagreen;
 }
 
 .blog h4 {
@@ -100,10 +122,18 @@ ul {
   margin: 0px 5px;
 }
 
+/* BLOG END */
+
+/* BLOG DETAILS */
 .blog-details {
+  margin: 10px;
   height: 200px;
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid lightgray;
+}
+
+.blog-details:hover {
+  box-shadow: 5px 5px 15px lightgray;
 }
 
 .blog-details button {
@@ -124,9 +154,14 @@ ul {
   margin: 5px 0px;
 }
 
+/* BLOG DETAILS END */
+
+
+/* FOOTER */
 .footer {
   background: lightseagreen;
   margin: 0;
+  box-shadow: 5px 5px 15px gray;
 }
 
 .footer p {
@@ -134,10 +169,14 @@ ul {
   padding: 10px;
   text-align: center;
   color: whitesmoke;
-  box-shadow: 5px 5px 15px gray;
+  text-shadow: 3px 0px 5px lightgray;
 }
+
+/* FOOTER END */
 
 /* 404 PAGE */
 .notfound {
   text-align: center;
 }
+
+/* 404 PAGE END */

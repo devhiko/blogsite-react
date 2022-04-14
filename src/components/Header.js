@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 
 const Header = () => {
   return (
     <div className="header">
-      <a href="/"><h4>Paper Blog</h4></a>
+      <Link to="/"><h4>Paper Blog</h4></Link>
       <Navbar />
     </div>
   );

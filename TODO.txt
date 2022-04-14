@@ -1,5 +1,6 @@
 * ögrendiklerini burada uygula (React)
 * sıfırdan bir blog sitesi yap (react ile)
 
-* KEEP STATE AT COMPONENT NOT OUTSIDE
 * ADD REACT ROUTER
+* KEEP STATE AT COMPONENT NOT OUTSIDE
+* AT LAST SEPERATE CSS MODULES EACH COMPONENT
