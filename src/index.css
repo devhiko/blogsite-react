@@ -93,8 +93,13 @@ ul {
   margin: 0px 5px;
 }
 
-.blog .like,
-.blog .read {
+.blog-details {
+  height: 200px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.blog-details button {
   margin: 0px 5px;
   font-size: 16px;
   border: 1px solid black;
@@ -103,8 +108,16 @@ ul {
   float: right;
 }
 
-.blog .like:hover,
-.blog .read:hover {
+.blog-details button:hover {
   color: black;
   background: lightseagreen;
+}
+
+.blog-details h3 {
+  margin: 5px 0px;
+}
+
+/* 404 PAGE */
+.notfound {
+  text-align: center;
 }

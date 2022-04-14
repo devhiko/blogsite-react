@@ -1,2 +1,5 @@
 * ögrendiklerini burada uygula (React)
 * sıfırdan bir blog sitesi yap (react ile)
+
+* KEEP STATE AT COMPONENT NOT OUTSIDE
+* ADD REACT ROUTER
