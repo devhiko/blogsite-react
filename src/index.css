@@ -25,22 +25,25 @@ ul {
   width: 90%;
   height: 1500px;
   margin: 10px auto;
-  padding: 5px 0px;
-  background: gray;
+  box-shadow: 5px 5px 15px gray;
 }
 
 .header {
-  height: 40px;
+  margin: 0;
+  background: rgba(32, 178, 171, 0.747);
+  height: 50px;
+  box-shadow: 0px 5px 20px gray;
 }
 
 .header h4 {
-  margin: 5px;
+  color: whitesmoke;
+  margin: 10px;
   padding: 5px;
   float: left;
 }
 
 .navbar ul {
-  margin: 0px 5px;
+  margin: 5px 5px;
   padding: 0;
   float: right;
 }
@@ -50,12 +53,15 @@ ul {
   display: inline-block;
 }
 
+.navbar a {
+  color: whitesmoke;
+}
+
 .blogs {
   width: 100%;
-  height: 1430px;
-  margin: 5px auto;
+  height: 1410px;
   padding: 5px;
-  background: lightgray;
+  background: rgba(253, 250, 250, 0.103);
 }
 
 .blogs h3 {
@@ -65,15 +71,16 @@ ul {
 
 .blog {
   height: 190px;
-  margin: 10px auto;
+  margin: 10px;
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid whitesmoke;
+  box-shadow: 5px 5px 15px lightgray;
   overflow: hidden;
 }
 
 .blog:hover {
   border: 1px solid lightseagreen;
-  transition: color .3s ease;
+  transition: color .3s ease-in;
 }
 
 .blog h4 {
@@ -115,6 +122,19 @@ ul {
 
 .blog-details h3 {
   margin: 5px 0px;
+}
+
+.footer {
+  background: lightseagreen;
+  margin: 0;
+}
+
+.footer p {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  color: whitesmoke;
+  box-shadow: 5px 5px 15px gray;
 }
 
 /* 404 PAGE */

@@ -3,7 +3,7 @@ import useFetch from "../useFetch";
 // state changes spreads all of elements
 // TODO: see TODO and add React Router
 const BlogDetails = () => {
-  const { data: blog } = useFetch('http://localhost:8000/blogs/1')
+  const { data: blog } = useFetch('http://localhost:8000/blogs/${id}')
   const [likes, setLikes] = useState(10);
   const handleClick = (e) => {
     setLikes(likes => likes + 1);
