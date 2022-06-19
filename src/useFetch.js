@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 
 const useFetch = (url) => {
+
   // ! it must be empty array instead null for no blogs
   const [data, setBlogs] = useState([]);
   useEffect(() => {

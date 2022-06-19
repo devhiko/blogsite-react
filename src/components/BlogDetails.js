@@ -4,8 +4,12 @@ import useFetch from "../useFetch";
 import '../styles/BlogDetails.style.css'
 
 const BlogDetails = () => {
-  const { id } = useParams();
+  // for navigation
+  const { id } = useParams()
+
+  // specific blog fetch
   const { data: blog } = useFetch(`http://localhost:8000/blogs/${id}`)
+
   // const [likes, setLikes] = useState(10);
   // const handleClick = (e) => {
   //   setLikes(likes => likes + 1);
@@ -22,7 +26,7 @@ const BlogDetails = () => {
       {/* <small><p className="likes">Likes: {newLike}</p></small> */}
       {/* <button onClick={handleClick}>Like</button> */}
     </div>
-  );
+  )
 }
 
 export default BlogDetails;
